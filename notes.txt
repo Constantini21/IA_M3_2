@@ -1,0 +1,21 @@
+dataset: http://archive.ics.uci.edu/ml/datasets/Car+Evaluation
+
+Attributes:
+buying: vhigh, high, med, low
+maint: vhigh, high, med, low
+doors: 2, 3, 4, 5more
+persons: 2, 4, more
+lug_boot: small, med, big
+safety: low, med, high
+
+low = 0
+small = 0
+med = 1
+high = 2
+big = 3
+vhigh = 5
+high = 4
+5more = 8
+more = 4
+
+unacc, acc, good, vgood
