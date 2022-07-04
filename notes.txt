@@ -12,10 +12,28 @@ low = 0
 small = 0
 med = 1
 high = 2
+vhigh = 3
 big = 3
-vhigh = 5
-high = 4
 5more = 8
-more = 4
+more = 5
 
-unacc, acc, good, vgood
+unacc = 1,0,0,0
+acc = 0,1,0,0
+good = 0,0,1,0
+vgood = 0,0,0,1
+
+--------
+training
+--------
+unacc 12 casos
+acc 12 casos
+good 12 casos
+vgood 14 casos
+
+--------
+test
+--------
+unacc 3
+acc 4
+good 5
+vgood 6
